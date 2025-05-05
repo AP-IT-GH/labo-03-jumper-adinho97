@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{529F8C22-BFAC-0765-A171-613B9277742A}|Assembly-CSharp.csproj|solutionrelative:assets\\cubeagentrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{529F8C22-BFAC-0765-A171-613B9277742A}|Assembly-CSharp.csproj|C:\\Dev\\VR\\Jumper\\Labo3jumper\\assets\\obstaclemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529F8C22-BFAC-0765-A171-613B9277742A}|Assembly-CSharp.csproj|solutionrelative:assets\\obstaclemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{529F8C22-BFAC-0765-A171-613B9277742A}|Assembly-CSharp.csproj|C:\\Dev\\VR\\Jumper\\Labo3jumper\\assets\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{529F8C22-BFAC-0765-A171-613B9277742A}|Assembly-CSharp.csproj|solutionrelative:assets\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,31 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\Dev\\VR\\Jumper\\Labo3jumper\\Assets\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Spawner.cs",
               "ToolTip": "C:\\Dev\\VR\\Jumper\\Labo3jumper\\Assets\\Spawner.cs",
               "RelativeToolTip": "Assets\\Spawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T19:58:20.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ObstacleMovement.cs",
-              "DocumentMoniker": "C:\\Dev\\VR\\Jumper\\Labo3jumper\\Assets\\ObstacleMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\ObstacleMovement.cs",
-              "ToolTip": "C:\\Dev\\VR\\Jumper\\Labo3jumper\\Assets\\ObstacleMovement.cs",
-              "RelativeToolTip": "Assets\\ObstacleMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T19:35:07.185Z"
+              "WhenOpened": "2025-05-04T19:58:20.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\CubeAgentRays.cs",
               "ToolTip": "C:\\Dev\\VR\\Jumper\\Labo3jumper\\Assets\\CubeAgentRays.cs",
               "RelativeToolTip": "Assets\\CubeAgentRays.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T18:46:21.781Z",
               "EditorCaption": ""

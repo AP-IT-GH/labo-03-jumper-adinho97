@@ -4,8 +4,8 @@ public class Spawner : MonoBehaviour
 {
     public GameObject prefab = null;
     public Transform spawnpoint = null;
-    public float min = 1.0f;
-    public float max = 3.5f;
+    public float min = 3.0f;
+    public float max = 5.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

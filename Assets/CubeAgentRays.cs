@@ -68,17 +68,12 @@ public class CubeAgentRays : Agent
     {
         if (collision.gameObject.CompareTag("Obstacle") == true)
         {
-            AddReward(-1.0f);
+            AddReward(-0.5f);
             Debug.Log("obstacle hit");
             Destroy(collision.gameObject);
             EndEpisode();
         }
 
-        if (collision.gameObject.CompareTag("Ceiling") == true)
-        {
-            AddReward(-1.0f);
-            EndEpisode();
-        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -86,6 +81,13 @@ public class CubeAgentRays : Agent
         if (other.CompareTag("WallReward") == true)
         {
             AddReward(0.1f);
+        }
+
+        if (other.gameObject.CompareTag("Ceiling") == true)
+        {
+            Debug.Log("ceiling hit");
+            AddReward(-1.0f);
+            EndEpisode();
         }
     }
 
