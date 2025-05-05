@@ -71,11 +71,13 @@ public class CubeAgentRays : Agent
             AddReward(-1.0f);
             Debug.Log("obstacle hit");
             Destroy(collision.gameObject);
+            EndEpisode();
         }
 
         if (collision.gameObject.CompareTag("Ceiling") == true)
         {
             AddReward(-1.0f);
+            EndEpisode();
         }
     }
 
