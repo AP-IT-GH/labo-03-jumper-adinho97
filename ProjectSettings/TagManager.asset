@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Wall
   - Obstacle
+  - WallReward
+  - Ceiling
+  - Road
   layers:
   - Default
   - TransparentFX

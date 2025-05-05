@@ -17,13 +17,23 @@ public class CubeAgentRays : Agent
 
         rb = this.GetComponent<Rigidbody>();
         // Freeze the X position and rotation
-        rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        rb.constraints = RigidbodyConstraints.FreezePositionX
+                | RigidbodyConstraints.FreezeRotationX
+                | RigidbodyConstraints.FreezeRotationY
+                | RigidbodyConstraints.FreezeRotationZ;
+
         ResetPlayer();
     }
-
+    /*
     void Update()
     {
         RequestDecision(); // This calls OnActionReceived
+    }
+    */
+
+    private void FixedUpdate()
+    {
+        RequestDecision();
     }
 
 
@@ -58,8 +68,22 @@ public class CubeAgentRays : Agent
     {
         if (collision.gameObject.CompareTag("Obstacle") == true)
         {
+            AddReward(-1.0f);
             Debug.Log("obstacle hit");
             Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Ceiling") == true)
+        {
+            AddReward(-1.0f);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("WallReward") == true)
+        {
+            AddReward(0.1f);
         }
     }
 
